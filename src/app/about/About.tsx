@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { FaPython, FaReact, FaVuejs, FaCss3Alt, FaGit } from "react-icons/fa";
-import { SiJavascript } from "react-icons/si";
+import { FaPython, FaReact, FaVuejs, FaCss3Alt, FaGit, FaLightbulb, FaBootstrap, FaWind } from "react-icons/fa";
+import { SiJavascript,  } from "react-icons/si";
 export default function About() {
   const skills = [
     {
@@ -13,7 +13,7 @@ export default function About() {
     },
     {
       name: "React",
-      icon: <FaReact className="text-blue-400 text-3xl pixelated" />,
+      icon: <FaReact className="text-blue-600 text-3xl pixelated" />,
     },
     {
       name: "Vue",
@@ -27,7 +27,9 @@ export default function About() {
       name: "Git",
       icon: <FaGit className="text-orange-500 text-3xl pixelated" />,
     },
-    { name: "UX", icon: null },
+    { name: "UX", icon: <FaLightbulb className="text-purple-500 text-3xl pixelated" /> },
+    { name: "TailWindCss", icon: <FaWind className="text-purple-500 text-3xl pixelated" /> },
+    { name: "BootStrap", icon: <FaBootstrap className="text-purple-500 text-3xl pixelated" /> },
   ];
 
   return (

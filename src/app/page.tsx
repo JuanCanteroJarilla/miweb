@@ -9,7 +9,7 @@ export default function Home() {
         <div className="text-center">
           {/* Título principal */}
           <h1 className="text-5xl font-bold text-gray-800 presentacion">
-            Hi, I'm Juan
+            Hi, I&apos;m Juan
           </h1>
           {/* Subtítulo */}
           <p className="text-xl text-gray-600 mb-8 presentacion2 py-4">
