@@ -1,6 +1,15 @@
 import { motion } from "framer-motion";
-import { FaPython, FaReact, FaVuejs, FaCss3Alt, FaGit, FaLightbulb, FaBootstrap, FaWind } from "react-icons/fa";
-import { SiJavascript,  } from "react-icons/si";
+import {
+  FaPython,
+  FaReact,
+  FaVuejs,
+  FaCss3Alt,
+  FaGit,
+  FaLightbulb,
+  FaBootstrap,
+  FaWind,
+} from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
 export default function About() {
   const skills = [
     {
@@ -27,9 +36,18 @@ export default function About() {
       name: "Git",
       icon: <FaGit className="text-orange-500 text-3xl pixelated" />,
     },
-    { name: "UX", icon: <FaLightbulb className="text-purple-500 text-3xl pixelated" /> },
-    { name: "TailWindCss", icon: <FaWind className="text-purple-500 text-3xl pixelated" /> },
-    { name: "BootStrap", icon: <FaBootstrap className="text-purple-500 text-3xl pixelated" /> },
+    {
+      name: "UX",
+      icon: <FaLightbulb className="text-purple-500 text-3xl pixelated" />,
+    },
+    {
+      name: "TailWindCss",
+      icon: <FaWind className="text-purple-500 text-3xl pixelated" />,
+    },
+    {
+      name: "BootStrap",
+      icon: <FaBootstrap className="text-purple-500 text-3xl pixelated" />,
+    },
   ];
 
   return (
@@ -55,8 +73,8 @@ export default function About() {
       <motion.div
         className=""
         initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }} // Ejecuta la animación al entrar en el viewport
-        viewport={{ once: false, amount: 0.5 }} // Configura el comportamiento del viewport
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: false, amount: 0.5 }}
         transition={{ duration: 1 }}
       >
         <div className="flex flex-row gap-x-16 mb-2">
