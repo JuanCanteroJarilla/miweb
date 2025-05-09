@@ -1,6 +1,7 @@
 "use client";
 import "./styles.scss";
 import About from "./about/About";
+import Projects from "./projects/Projects";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         </div>
       </section>
       <About />
+      <Projects />
     </>
   );
 }

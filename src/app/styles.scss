@@ -72,12 +72,12 @@ body {
   height: 64px;
 }
 
-#about {
-  font-family: "Explanation", sans-serif;
-  font-size: 1.5rem;
-  color: #143040;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-}
+// #about {
+//   font-family: "Explanation", sans-serif;
+//   font-size: 1.5rem;
+//   color: #143040;
+//   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+// }
 
 .inicio {
   background-image: url("/images/45-degree-fabric-light.png");
@@ -126,6 +126,7 @@ body {
     font-family: "Silkscreen Regular", sans-serif;
     color: #004E64;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 1.3rem;
   }
 }
 
