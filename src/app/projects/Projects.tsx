@@ -1,21 +1,21 @@
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 export default function Projects() {
-  const projects = [
-    {
-      title: "m-automocion",
-      description:
-        "A scalable e-commerce platform built with React and Node.js.",
-      technologies: ["React", "Node.js", "MongoDB"],
-    },
-  ];
+  // const projects = [
+  //   {
+  //     title: "m-automocion",
+  //     description:
+  //       "A scalable e-commerce platform built with React and Node.js.",
+  //     technologies: ["React", "Node.js", "MongoDB"],
+  //   },
+  // ];
   return (
     <>
       <section
         id="projects"
         className="w-full min-h-screen bg-gray-100 flex flex-col items-center justify-center sec3"
       >
-        <motion.div
+        {/* <motion.div
           className="text-center max-w-4xl mb-8"
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }} // Ejecuta la animación al entrar en el viewport
@@ -27,13 +27,7 @@ export default function Projects() {
               Projects
             </h2>
             <div className="flex flex-row mb-2 gap-8">
-              {/* Proyecto 1 */}
               <div className="skillsDiv inline-block w-auto">
-                {/* <img
-                src="/images/project1.png"
-                alt="Project 1"
-                className="w-full h-48 object-cover"
-              /> */}
                 <div className="p-4">
                   <p className="text-xl font-semibold text-gray-800 text-left truncate">
                     E-commerce App
@@ -54,23 +48,10 @@ export default function Projects() {
                       MongoDB
                     </span>
                   </div>
-                  {/* <a
-                  href="https://github.com/yourusername/ecommerce-app"
-                  target="_blank"
-                  className="block mt-4 text-blue-500 hover:underline"
-                >
-                  View Project
-                </a> */}
                 </div>
               </div>
 
-              {/* Proyecto 2 */}
               <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                {/* <img
-                src="/images/project2.png"
-                alt="Project 2"
-                className="w-full h-48 object-cover"
-              /> */}
                 <div className="p-4">
                   <h3 className="text-xl font-semibold text-gray-800">
                     Portfolio Website
@@ -87,23 +68,10 @@ export default function Projects() {
                       Tailwind CSS
                     </span>
                   </div>
-                  {/* <a
-                  href="https://yourportfolio.com"
-                  target="_blank"
-                  className="block mt-4 text-blue-500 hover:underline"
-                >
-                  View Project
-                </a> */}
                 </div>
               </div>
 
-              {/* Proyecto 3 */}
               <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                {/* <img
-                src="/images/project3.png"
-                alt="Project 3"
-                className="w-full h-48 object-cover"
-              /> */}
                 <div className="p-4">
                   <h3 className="text-xl font-semibold text-gray-800">
                     Dashboard App
@@ -119,18 +87,18 @@ export default function Projects() {
                       Firebase
                     </span>
                   </div>
-                  {/* <a
-                  href="https://github.com/yourusername/dashboard-app"
-                  target="_blank"
-                  className="block mt-4 text-blue-500 hover:underline"
-                >
-                  View Project
-                </a> */}
                 </div>
               </div>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
+        <h2 className="text-3xl font-bold text-gray-800 text-center presentacion">
+          COMING SOON!
+        </h2>
+        <p className="text-gray-600 presentacion2">
+          At the moment I&#39;m working in this section to show all my
+          professional and personal projects!
+        </p>
       </section>
     </>
   );

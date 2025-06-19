@@ -25,6 +25,12 @@
   src: url("/fonts/static/Lexend-SemiBold.ttf") format("woff2");
 }
 
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
 .sec1 {
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.4),
@@ -71,13 +77,6 @@ body {
   padding: 1rem;
   height: 64px;
 }
-
-// #about {
-//   font-family: "Explanation", sans-serif;
-//   font-size: 1.5rem;
-//   color: #143040;
-//   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-// }
 
 .inicio {
   background-image: url("/images/45-degree-fabric-light.png");

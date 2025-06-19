@@ -66,7 +66,7 @@ export default function About() {
           About Me
         </h2>
         <p className="text-gray-600 presentacion2">
-          I am a passionate frontend developer with a strong interest in
+          I am a passionate fullStack web developer with a strong interest in
           creating beautiful and functional user interfaces.
         </p>
       </motion.div>
